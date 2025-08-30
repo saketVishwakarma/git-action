@@ -27,7 +27,7 @@ def test_area_of_circle_negative_radius():
    # Arrange
    radius = -1
 
-   with pytest.raises(ValueError, match="Radius cannot be negative."):
+   with pytest.raises(ValueError, match="Radius cannot be negative"):
        area_of_circle(radius)
   
 def test_area_of_circle_zero_radius():
